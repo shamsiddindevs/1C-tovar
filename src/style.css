@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_hover:hover {
+  background: linear-gradient(100.98deg, #43a548 -4.14%, #52e259 108.69%);
+  transition: all 0.3s linear;
+}

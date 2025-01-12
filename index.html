@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>1С-Товары</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header
+      class="py-5 lg:py-6"
+      style="box-shadow: 0px 4px 24.2px 0px #0000000f">
+      <div
+        class="w-full mx-auto max-w-[1352px] flex px-5 items-center justify-between">
+        <a href="#">
+          <img
+            src="./img/header/logo.png"
+            class="max-w-[133px] lg:max-w-[173px]"
+            alt="header logo" />
+        </a>
+
+        <ul class="hidden lg:flex gap-[51px] items-center">
+          <li class="">
+            <a
+              href="#"
+              class="text-sm leading-5 text-[#2C2B35]"
+              >Как это работает</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-sm leading-5 text-[#2C2B35]"
+              >Инструкции</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-sm leading-5 text-[#2C2B35]"
+              >Продукты</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-sm leading-5 text-[#2C2B35]"
+              >База знаний
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-sm leading-5 text-[#2C2B35]"
+              >О нас</a
+            >
+          </li>
+          <li>
+            <button
+              class="rounded-full font-semibold text-sm leading-5 text-[#F7F8F8] px-5 py-2.5"
+              style="
+                background: linear-gradient(
+                  100.98deg,
+                  #43a548 -4.14%,
+                  #52e259 108.69%
+                );
+              ">
+              Вход
+            </button>
+          </li>
+        </ul>
+        <button class="flex lg:hidden">
+          <img
+            src="./img/header/menu-05.svg"
+            alt="hamburger menu"
+            class="w-6 h-6" />
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- grocery section start -->
+      <section
+        id="grocery"
+        class="pt-7 pb-5 lg:pt-[55px] lg:pb-[60px]">
+        <div
+          class="w-full mx-auto max-w-[1352px] flex flex-col lg:flex-row px-5 items-center justify-between gap-5">
+          <div class="lg:max-w-[646px]">
+            <h2
+              class="text-[#2C2B35] font-semibold text-[30px] leading-[33px] lg:text-[60px] lg:leading-[66px] mb-5">
+              Управление запасами розничного магазина
+            </h2>
+            <p
+              class="leading-5 lg:leading-[28px] lg:text-[20px] text-[#2C2B35] mb-[30px]">
+              Использование сервиса 1С-Товары позволяет значительно упростить
+              работу по формированию заявок поставщику.
+            </p>
+            <button
+              class="btn_hover transition-all bg-[#43A548] text-xs lg:text-[16px] leading-[16px] lg:leading-[22px] font-semibold text-[#F7F8F8] px-[30px] py-2.5 rounded-full">
+              Заказать демонстрацию
+            </button>
+          </div>
+          <img
+            src="./img/hero/Grocery shopping-amico 2.png"
+            alt="Grocery shopping-amico"
+            class="w-full max-w-[508px]" />
+        </div>
+      </section>
+      <!-- grocery section end -->
+
+      <!-- services section start -->
+      <section
+        id="service"
+        class="bg-[#F7F8F8] py-8 lg:py-[60px]">
+        <div class="w-full mx-auto max-w-[1352px] px-5">
+          <div class="grid grid-cols-1 lg:grid-cols-6 gap-5 mb-5 lg:mb-10">
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-3 lg:min-h-[308px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Управление запасами</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Сервис 1С-Товары позволяет рассчитать необходимое количество
+                  товаров на полках (уровень запасов), помогает организовать
+                  систему контроля за остатками товаров, а также вовремя и в
+                  нужном количестве закупать у поставщиков.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-3 lg:min-h-[308px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-1.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Автозаказ товаров</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Сервис 1С-Товары позволяет рассчитать прогноз спроса. Сервис
+                  работает с равномерным и редким спросом для разных видов
+                  товаров. Автоматически подбирает подходящий метод расчета и
+                  позволяет внести корректировки в выполняемые расчеты.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-2 lg:min-h-[388px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-2.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Анализ магазина</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Система контроля упущенных продаж позволяет увеличить выручку.
+                  Средний чек, минимальный чек, максимальный чек - это пример
+                  показателей, которые анализирует сервис 1С-Товары, а также
+                  предлагает ряд инструментов для управления ценой и торговой
+                  наценкой.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-2 lg:min-h-[388px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-3.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Прогнозирование спроса</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Сервис 1С-Товары позволяет рассчитать прогноз спроса. Сервис
+                  работает с равномерным и редким спросом для разных видов
+                  товаров. Автоматически подбирает подходящий метод расчета и
+                  позволяет внести корректировки в выполняемые расчеты.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-2 lg:min-h-[388px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-4.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Управление поставками</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Сервис 1С-Товары позволяет рассчитать прогноз спроса. Сервис
+                  работает с равномерным и редким спросом для разных видов
+                  товаров. Автоматически подбирает подходящий метод расчета и
+                  позволяет внести корректировки в выполняемые расчеты.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-3 lg:min-h-[330px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-5.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Управление ассортиментом</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Сервис 1С-Товары позволяет определить ассортиментную матрицу.
+                  Быстро и просто принять решение о том какие товары вывести из
+                  ассортимента, а наличие каких увеличить на полках магазина.
+                  Сервис позволяет узнать необходимую информацию: динамику
+                  продаж и остатков, периоды дефицита, размер оптимального
+                  остатка.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+            <div
+              style="box-shadow: 0px 4px 12px 0px #0000000d"
+              class="rounded-[20px] p-5 lg:rounded-[40px] lg:p-10 bg-white lg:col-span-3 lg:min-h-[330px] flex flex-col items-start justify-between">
+              <div class="mb-5 lg:mb-8">
+                <div class="mb-[14px] flex gap-2.5 items-center">
+                  <img
+                    src="./img//service/Frame 317-6.png"
+                    class="w-10 lg:w-[52px]"
+                    alt="service icon" />
+                  <span
+                    class="text-xl leading-6 lg:leading-[34px] lg:text-2xl font-semibold text-[#2C2B35]"
+                    >Управление продажами</span
+                  >
+                </div>
+                <p
+                  class="text-sm leading-[16px] lg:text-[16px] lg:leading-[22px] text-[#6F7973] font-normal">
+                  Система контроля упущенных продаж позволяет увеличить выручку.
+                  Средний чек, минимальный чек, максимальный чек - это пример
+                  показателей, которые анализирует сервис 1С-Товары, а также
+                  предлагает ряд инструментов для управления ценой и торговой
+                  наценкой.
+                </p>
+              </div>
+              <button
+                style="border: 1px solid #43a548"
+                class="px-[30px] py-2.5 bg-transparent font-semibold text-[#43A548] rounded-full">
+                Подробнее
+              </button>
+            </div>
+          </div>
+
+          <div
+            style="
+              box-shadow: 0px 4px 12px 0px #0000000d;
+              background: linear-gradient(
+                252.7deg,
+                #ebf5eb 17.34%,
+                #effbf0 90.57%
+              );
+            "
+            class="p-5 lg:p-8 rounded-[20px] lg:rounded-[40px] flex flex-col lg:flex-row lg:items-center justify-between gap-2.5">
+            <div class="flex items-center gap-5">
+              <img
+                src="./img/service/gift-01.svg"
+                class="w-10"
+                alt=" service gift icon" />
+              <span
+                class="font-medium leading-[22px] lg:text-[20px] lg:leading-[28px] text-[#43A548]"
+                >Подключи любой продукт на 1 месяц бесплатно и оцени наши
+                приемущества</span
+              >
+            </div>
+            <button
+              class="btn_hover transition-all bg-[#43A548] text-[16px] leading-[22px] font-semibold text-[#F7F8F8] px-[30px] py-2.5 rounded-full whitespace-nowrap">
+              Подключить сейчас
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- services section end -->
+
+      <!-- С нами удобнее start -->
+      <section
+        id="useful"
+        class="pt-8 lg:pt-10 pb-[60px] lg:pb-[120px] bg-[#F7F8F8]">
+        <div class="w-full mx-auto max-w-[1352px] px-5">
+          <h2
+            class="mb-[30px] lg:mb-[60px] text-[#2C2B35] font-semibold text-[28px] leading-[39px]">
+            С нами удобнее
+          </h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div class="p-5 rounded-[20px] lg:p-10 lg:rounded-[40px] bg-white">
+              <h3
+                class="text-[24px] leading-[34px] text-[#3D4641] font-semibold mb-10 text-center">
+                Без 1С-Товары
+              </h3>
+              <ul class="flex flex-col gap-5">
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Лишний товар складируется и не продается</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Постоянно приходится думать какой продукт будет актуален, а
+                    какой стоит выводить из ассортимента</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Лишний товар складируется и не продается</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Постоянно приходится думать какой продукт будет актуален, а
+                    какой стоит выводить из ассортимента</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Лишний товар складируется и не продается</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Постоянно приходится думать какой продукт будет актуален, а
+                    какой стоит выводить из ассортимента</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/fail.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Лишний товар складируется и не продается</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="p-5 rounded-[20px] lg:p-10 lg:rounded-[40px]"
+              style="
+                background: linear-gradient(
+                  252.7deg,
+                  #e5f6e6 17.34%,
+                  #dff7e0 90.57%
+                );
+              ">
+              <h3
+                class="text-[24px] leading-[34px] text-[#3D4641] font-semibold mb-10 text-center">
+                Вместе с 1С-Товары
+              </h3>
+              <ul class="flex flex-col gap-5">
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Организованная система остатков</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >В магазине есть определенная ассортиментная матрица,
+                    поддерживающая актуальный ассортимент
+                  </span>
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Организованная система остатков</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >В магазине есть определенная ассортиментная матрица,
+                    поддерживающая актуальный ассортимент
+                  </span>
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Организованная система остатков</span
+                  >
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >В магазине есть определенная ассортиментная матрица,
+                    поддерживающая актуальный ассортимент
+                  </span>
+                </li>
+                <li class="flex items-center gap-[26px]">
+                  <img
+                    src="./img/check/success.svg"
+                    alt="fail icon" />
+                  <span
+                    class="text-sm lg:text-xl lg:leading-[28px] text-[#3D4641]"
+                    >Организованная система остатков</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- С нами удобнее end -->
+
+      <!-- Популярные продукты start -->
+      <section
+        id="popular_product"
+        class="hidden lg:block py-[60px]"
+        style="
+          background: linear-gradient(252.7deg, #ebf5eb 17.34%, #effbf0 90.57%);
+        ">
+        <div class="w-full mx-auto max-w-[1352px] px-5 relative">
+          <div class="flex justify-between items-center mb-10">
+            <h2 class="text-[#2C2B35] font-semibold text-[28px] leading-[39px]">
+              Популярные продукты
+            </h2>
+            <button
+              class="btn_hover transition-all bg-[#43A548] text-[16px] leading-[22px] font-semibold text-[#F7F8F8] px-[30px] py-2.5 rounded-full">
+              Все продукты
+            </button>
+          </div>
+          <div class="swiper my_swipper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide p-10 rounded-[40px] bg-white"
+                style="box-shadow: 0px 4px 12px 0px #0000000d">
+                <div class="flex justify-between items-center mb-5">
+                  <h3 class="font-semibold text-xl text-[#2C2B35]">
+                    1С-Товары 300
+                  </h3>
+                  <button
+                    style="border: 1px solid #43a548"
+                    class="px-2.5 py-1 text-sm bg-transparent font-semibold text-[#43A548] rounded-full">
+                    400 руб/мес
+                  </button>
+                </div>
+                <ul class="text-[#838684] mb-10 list-disc pl-5">
+                  <li class="text-sm">
+                    Прогноз спроса с использованием сервера прогнозирования
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Контроль товарных остатков и автоматический заказ товаров
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Анализ работы розничного магазина или сети магазинов
+                  </li>
+                  <li class="text-sm">
+                    Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)
+                  </li>
+                </ul>
+                <button class="ml-auto flex gap-1 items-center">
+                  <span class="text-sm text-[#43A548]">Подробнее</span>
+                  <img
+                    src="./img/caruselProduct/arrow-narrow-right.png"
+                    alt="arrow icon"
+                    class="w-4" />
+                </button>
+              </div>
+              <div
+                class="swiper-slide p-10 rounded-[40px] bg-white"
+                style="box-shadow: 0px 4px 12px 0px #0000000d">
+                <div class="flex justify-between items-center mb-5">
+                  <h3 class="font-semibold text-xl text-[#2C2B35]">
+                    1С-Товары 3000
+                  </h3>
+                  <button
+                    style="border: 1px solid #43a548"
+                    class="px-2.5 py-1 text-sm bg-transparent font-semibold text-[#43A548] rounded-full">
+                    1 700 руб/мес
+                  </button>
+                </div>
+                <ul class="text-[#838684] mb-10 list-disc pl-5">
+                  <li class="text-sm">
+                    Прогноз спроса с использованием сервера прогнозирования
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Контроль товарных остатков и автоматический заказ товаров
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Анализ работы розничного магазина или сети магазинов
+                  </li>
+                  <li class="text-sm">
+                    Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)
+                  </li>
+                </ul>
+                <button class="ml-auto flex gap-1 items-center">
+                  <span class="text-sm text-[#43A548]">Подробнее</span>
+                  <img
+                    src="./img/caruselProduct/arrow-narrow-right.png"
+                    alt="arrow icon"
+                    class="w-4" />
+                </button>
+              </div>
+              <div
+                class="swiper-slide p-10 rounded-[40px] bg-white"
+                style="box-shadow: 0px 4px 12px 0px #0000000d">
+                <div class="flex justify-between items-center mb-5">
+                  <h3 class="font-semibold text-xl text-[#2C2B35]">
+                    1С-Товары
+                  </h3>
+                  <button
+                    style="border: 1px solid #43a548"
+                    class="px-2.5 py-1 text-sm bg-transparent font-semibold text-[#43A548] rounded-full">
+                    4 500 руб/мес
+                  </button>
+                </div>
+                <ul class="text-[#838684] mb-10 list-disc pl-5">
+                  <li class="text-sm">
+                    Прогноз спроса с использованием сервера прогнозирования
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Контроль товарных остатков и автоматический заказ товаров
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Анализ работы розничного магазина или сети магазинов
+                  </li>
+                  <li class="text-sm">
+                    Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)
+                  </li>
+                </ul>
+                <button class="ml-auto flex gap-1 items-center">
+                  <span class="text-sm text-[#43A548]">Подробнее</span>
+                  <img
+                    src="./img/caruselProduct/arrow-narrow-right.png"
+                    alt="arrow icon"
+                    class="w-4" />
+                </button>
+              </div>
+              <div
+                class="swiper-slide p-10 rounded-[40px] bg-white"
+                style="box-shadow: 0px 4px 12px 0px #0000000d">
+                <div class="flex justify-between items-center mb-5">
+                  <h3 class="font-semibold text-xl text-[#2C2B35]">
+                    1С-Товары 300
+                  </h3>
+                  <button
+                    style="border: 1px solid #43a548"
+                    class="px-2.5 py-1 text-sm bg-transparent font-semibold text-[#43A548] rounded-full">
+                    400 руб/мес
+                  </button>
+                </div>
+                <ul class="text-[#838684] mb-10 list-disc pl-5">
+                  <li class="text-sm">
+                    Прогноз спроса с использованием сервера прогнозирования
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Контроль товарных остатков и автоматический заказ товаров
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Анализ работы розничного магазина или сети магазинов
+                  </li>
+                  <li class="text-sm">
+                    Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)
+                  </li>
+                </ul>
+                <button class="ml-auto flex gap-1 items-center">
+                  <span class="text-sm text-[#43A548]">Подробнее</span>
+                  <img
+                    src="./img/caruselProduct/arrow-narrow-right.png"
+                    alt="arrow icon"
+                    class="w-4" />
+                </button>
+              </div>
+              <div
+                class="swiper-slide p-10 rounded-[40px] bg-white"
+                style="box-shadow: 0px 4px 12px 0px #0000000d">
+                <div class="flex justify-between items-center mb-5">
+                  <h3 class="font-semibold text-xl text-[#2C2B35]">
+                    1С-Товары 300
+                  </h3>
+                  <button
+                    style="border: 1px solid #43a548"
+                    class="px-2.5 py-1 text-sm bg-transparent font-semibold text-[#43A548] rounded-full">
+                    400 руб/мес
+                  </button>
+                </div>
+                <ul class="text-[#838684] mb-10 list-disc pl-5">
+                  <li class="text-sm">
+                    Прогноз спроса с использованием сервера прогнозирования
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Контроль товарных остатков и автоматический заказ товаров
+                    (ограничение – 300 товаров)
+                  </li>
+                  <li class="text-sm">
+                    Анализ работы розничного магазина или сети магазинов
+                  </li>
+                  <li class="text-sm">
+                    Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)
+                  </li>
+                </ul>
+                <button class="ml-auto flex gap-1 items-center">
+                  <span class="text-sm text-[#43A548]">Подробнее</span>
+                  <img
+                    src="./img/caruselProduct/arrow-narrow-right.png"
+                    alt="arrow icon"
+                    class="w-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div
+            class="button_prev absolute top-[60%] -translate-y-1/2 left-6 xl:-left-10 cursor-pointer z-10 p-2">
+            <img
+              src="./img/caruselProduct/chevron-left.png"
+              class="w-10"
+              alt="left icon" />
+          </div>
+          <div
+            class="button_next absolute top-[60%] -translate-y-1/2 right-6 xl:-right-10 cursor-pointer z-10 p-2 rotate-180">
+            <img
+              src="./img/caruselProduct/chevron-left.png"
+              class="w-10"
+              alt="left icon" />
+          </div>
+        </div>
+      </section>
+      <!-- Популярные продукты end -->
+
+      <!-- наших клиентов start -->
+      <section
+        id="costumer"
+        class="pt-[120px] pb-[60px] bg-[#F7F8F8]">
+        <div class="w-full mx-auto max-w-[1352px] px-5">
+          <div
+            class="flex flex-col text-center lg:text-left lg:flex-row items-center px-5 rounded-[20px] lg:p-10 lg:rounded--[40px] lg:justify-between gap-5 bg-white"
+            style="box-shadow: 0px 4px 12px 0px #0000000d">
+            <div class="w-full max-w-[645px]">
+              <h3
+                class="text-[26px] leading-[36px] font-semibold text-[#2C2B35] mb-10">
+                Предоставляем техподдержку для наших клиентов
+              </h3>
+              <p class="leading-[22px] text-[#2C2B35]">Если у вас возникнут сложности с использованием 1С-Товары, обращайтесь в нашу техподдержку. Техподдержка работает круглосуточно. Вы можете связаться с нами любыми удобными для Вас способами. При использовании техпомощи просим соблюдать <span>правила обращения.</span> </p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- наших клиентов start -->
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper1 = new Swiper(".my_swipper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+      });
+
+      // Custom Navigation for Swiper 1
+      document
+        .querySelector(".button_prev")
+        .addEventListener("click", () => swiper1.slidePrev());
+      document
+        .querySelector(".button_next")
+        .addEventListener("click", () => swiper1.slideNext());
+    </script>
+  </body>
+</html>
